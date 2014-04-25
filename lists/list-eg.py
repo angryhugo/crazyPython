@@ -18,5 +18,6 @@ animals.insert(cow_index,"elephant")
 for animal in animals:
     print animal
 
+animals.remove("cow")
 animals.sort()
 print animals
