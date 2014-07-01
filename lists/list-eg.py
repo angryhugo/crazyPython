@@ -18,6 +18,8 @@ animals.insert(cow_index,"elephant")
 for animal in animals:
     print animal
 
-animals.remove("cow")
+animals.remove("cow") #remove the actual item if it finds it
+animals.pop(1); #remove the item at index from the list and return it to you
+del(animals[1]) #like .pop in that it will remove the item at the given index, but it won't return it
 animals.sort()
 print animals
